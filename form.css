@@ -1,0 +1,5 @@
+.register{
+    display: flex; margin: 0;
+    align-content: center;
+    gap: 50px;
+}
