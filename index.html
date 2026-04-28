@@ -13,7 +13,7 @@
         <div class="head">
         <img src="download.jfif" width="50px" height="50px">
         <div class="text">
-        <h1 id="name">Ntare School</h1>
+        <h1 id="sch">Ntare School</h1>
         <h2 id="slogan">The Lion Roars</h2>
         </div>
         <nav> <div class="navlink">
@@ -22,7 +22,11 @@
         <li><a href="#">About Us</a></li>
         <li><a href="#">Academics</a></li>
         <li><a href="#">Gallery</a></li>
+<<<<<<< HEAD:index.html
         <li><a href="index.html">Contact Us</a></li>
+=======
+        <li><a href="Contact Us">Contact Us</a></li>
+>>>>>>> 94141aa (css change):Contact.html
         </ul>
         </div>
     </nav>
@@ -40,35 +44,54 @@
     
     <main>
         <div class="final">
-        <table  border="1">
+        <table  border ="none">
             <div class="mess">
             <tr><td>
-                <p> Address</p>
-                <p> Ntare Road, 256 Mbarara</p>
+                <div class ="tel">
+                <p> Address<br>
+                Ntare Road, <br>
+                256 Mbarara</p>
                 <i class="bi bi-geo-alt-fill"></i></td></tr>
+            </div>
             <tr><td>
-                <p>Email</p> <p> ntare@ntareschool.sc.ug</p><i class="bi bi-envelope" size="50px"></i></td></tr>
-            <tr><td><p>Phone</p><p> 039-216-7944</p><i class="bi bi-telephone" size="50px ali"></i></td></tr>
+                <div class ="tel">
+                <p>Email<br>
+                 ntare@ntare<br>
+                 school.sc.ug</p>
+                 <p><i class="bi bi-envelope" size="50px"></i>
+                 </p>
+
+                </div></td></tr>
+            <tr><td>
+                <div class="tel">
+                <p>Phone<br>
+                     039-216-79</p>
+                
+                    <i class="bi bi-telephone" size="50px ali"></i>
+                    </div>
+                    </i></td></tr>
             </div>
         </table>
         <form onsubmit="return validateForm()" >
             <div class="mess">
+                <div class="mes">
            <h2>Get In Touch</h2>
            <p><label for="name">Name</label>
-            <input id="name" type="text" name="name"><br></p>
+            <input id="name" type="text" name="name" required><br></p>
            <p><label for="email">Email</label>
-            <input id="email" type="email" name="emailaddress"><br></p>
+            <input id="email" type="email" name="emailaddress" required><br></p>
            <p><label for="contact">Telephone</label>
-            <input id="contact" type="tel" name="telephone"></p>
+            <input id="contact" type="tel" name="telephone" required></p>
             <p><label for="message">Message</label>
-               <textarea id="message" name="subject" rows="5" cols="5"></textarea>
+               <textarea id="message" name="subject" rows="5" cols="5" required></textarea>
             </p>
             
-            <button type="submit">SUBMIT</button>
             </div>
-        </form>
+            <button type="submit">SUBMIT</button>
+            
             <p id="error"></p>
-
+    </div>
+    </form>
         <div class="mess">
             <h2>HAVE ANY QUESTIONS?</h2>
             <p>We’re here to support, guide, and connect with our students, parents, alumni, and community. 
