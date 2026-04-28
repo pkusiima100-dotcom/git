@@ -1,8 +1,8 @@
 function validateForm(){
-    var name = document.getElementById("name").ariaValueMax;
-    var email = document.getElementById("email").ariaValueMax;
-    var contact = document.getElementById("contact").ariaValueMax;
-    var message = document.getElementById("message").ariaValueMax;
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var contact = document.getElementById("contact").value;
+    var message = document.getElementById("message").value;
 
 if(name===""){
     error.innerText = "Name is required";
